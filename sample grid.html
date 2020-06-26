@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SREEJA</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="ja.css">
+		<style>
+		 .container {
+	        display: grid;
+            grid-template-columns: 60% 40%;
+            grid-gap: 1em;
+            grid-auto-rows: minmax(100px,auto);
+           color: blue;
+           font-size: 20px;
+           }
+            .container>div {
+            	background:#eee;
+            	padding: 8em;
+            	border:1px solid black; 
+            	grid-auto-rows: 50px;
+            	background-image: url('3.jpg');
+            	background-size: cover;
+            	 
+            }
+            .nested {
+            	display: grid;
+            	grid-template-columns:70% 30%;
+            	grid-gap: 1em;
+            	grid-auto-rows: minmax(100px,auto);
+            	color: black;
+            	font-size: 20px;
+            }
+            .nested > div{
+              background: #ddd;
+              padding:10em;
+              border: dotted 1px black;
+              background-image: url('2.jpg');
+              background-size: cover;
+            }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>BE CREATIVE</h1>
+	</header>
+	<section>
+		<div class="container">
+		<div>
+		    Creative Thinkaing leads to innovation.
+		</div>
+		    <div>
+            Innovation leads to success.
+             </div>
+             <div>
+            Success gives u name & fame.
+             </div>
+             <div>
+            All this helps us to make money.
+            </div>
+        </div>
+	</section>
+	<br>
+	<section>
+		<div class="nested">
+			<div>
+			M Venkatshwarlu.
+		</div>
+		<div>
+			M Sujatha.
+		</div>
+		<div>
+			M Sreeja.
+		</div>
+		<div>
+			M Kavya.
+		</div>
+		<div>
+			M Sri Vani.
+		</div>
+		</div>
+	</section>
+
+</body>
+</html>
