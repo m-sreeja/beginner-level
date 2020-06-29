@@ -1,0 +1,61 @@
+#block1{
+	font-family: American Frights;
+	background-color: #f4f4f4;
+	color: black;
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+#github{
+	margin: auto;
+    width: 1000px;
+
+}
+#Wordpress{
+	margin: auto;
+    width: 1000px;
+}
+#linkedin{
+	margin: auto;
+    width: 1000px;
+}
+ section article {
+	width: 31%;
+	display: inline-block !important;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+article img{
+	width: 50px;
+	height: 50px;
+}
+.article-img{
+	height: 200px;
+	width: 100%;
+	background-size: cover !important;
+	background-position: center !important;
+	border-top-left-radius: 10px;
+	height: 200px;
+	width: 200px;
+	border-radius: 50px; 
+}	
+body{
+	background-color: #f4f4f4;
+}
+.input{
+	display: block;
+	width: 90%;
+	margin: 10px;
+	padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px transparent solid;
+}
+.input:focus {
+	background: #d5ffc2;
+	color: #0f8034;
+	border: 1px solid black;
+}
+article:active {
+	opacity: .4;
+}
